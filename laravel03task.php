@@ -1,12 +1,12 @@
 <?php
-$name = "inoue";
-if($name = "inoue"){
+$name = "suzuki";
+if($name == "inoue"){
     echo "私はあなたの名前です。";
 } else {
     echo "あなたの名前ではありません。";
 }    
 $total = 0;
-for($i = 0; $i <= 10000; $i++) {
+for($i = 1; $i <= 10000; $i++) {
     $total += $i;
 }
 echo $total;
